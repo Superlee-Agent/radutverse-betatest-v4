@@ -12,13 +12,13 @@ const ResultMediaDisplay = ({ url, type }: ResultMediaDisplayProps) => {
             <img
               src={url}
               alt="Generated creation"
-              className="w-full h-auto object-cover max-h-[600px]"
+              className="w-full h-auto object-cover max-h-[40vh] sm:max-h-[50vh] md:max-h-[70vh]"
             />
           ) : (
             <video
               src={url}
               controls
-              className="w-full h-auto object-cover max-h-[600px]"
+              className="w-full h-auto object-cover max-h-[40vh] sm:max-h-[50vh] md:max-h-[70vh]"
             />
           )}
         </div>
