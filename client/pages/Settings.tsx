@@ -61,7 +61,7 @@ const Settings = () => {
   return (
     <DashboardLayout title="Settings">
       <div className="flex min-h-0 flex-1">
-        <aside className="hidden w-72 flex-col border-r border-white/10 px-6 py-8 text-sm text-slate-300 lg:flex">
+        <aside className="hidden w-64 flex-col border-r border-white/10 px-4 sm:px-6 py-6 sm:py-8 text-sm text-slate-300 lg:flex">
           <div className="text-xs font-semibold uppercase tracking-wide text-slate-400">
             Sections
           </div>
@@ -80,7 +80,7 @@ const Settings = () => {
         </aside>
 
         <section className="flex-1 min-h-0">
-          <div className="relative h-full overflow-y-auto px-4 py-6 md:px-10">
+          <div className="relative h-full overflow-y-auto px-4 sm:px-6 py-6 lg:px-8">
             <div className="space-y-12 pb-16">
               <section id="general" className="space-y-6">
                 <header className="space-y-1">
