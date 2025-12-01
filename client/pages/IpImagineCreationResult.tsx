@@ -23,7 +23,7 @@ const IpImagineCreationResult = () => {
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            className="flex flex-col items-center justify-center h-[400px]"
+            className="flex flex-col items-center justify-center min-h-[50vh]"
           >
             <p className="text-slate-400 mb-4">
               No creation data found. Please generate an image first.
@@ -332,7 +332,7 @@ const IpImagineCreationResult = () => {
               key="no-data"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              className="flex flex-col items-center justify-center h-[400px]"
+              className="flex flex-col items-center justify-center min-h-[50vh]"
             >
               <p className="text-slate-400 mb-4">No creation data found</p>
               <Button onClick={() => navigate("/ip-imagine")}>

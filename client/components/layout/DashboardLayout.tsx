@@ -98,8 +98,8 @@ export const DashboardLayout = ({
   );
 
   return (
-    <div className="min-h-[100dvh] bg-gradient-to-br from-slate-950 via-slate-900 to-black text-slate-100">
-      <div className="flex min-h-[100dvh] w-full md:overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-black text-slate-100">
+      <div className="flex min-h-screen w-full md:overflow-hidden">
         <aside className="hidden md:flex w-64 flex-col bg-slate-950/80 text-slate-100 py-6 px-4 sticky top-0 max-h-screen min-h-screen overflow-y-auto">
           {sidebar}
         </aside>

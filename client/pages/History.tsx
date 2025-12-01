@@ -179,8 +179,8 @@ const History = () => {
   return (
     <DashboardLayout title="Chat History">
       <div className="flex min-h-0 flex-1 flex-col md:flex-row">
-        <aside className="hidden w-80 flex-col border-r border-white/10 px-6 py-8 text-sm text-slate-300 md:flex">
-          <label className="flex items-center gap-2 rounded-lg border border-white/10 bg-white/5 py-[7px] pl-[11px] pr-0 text-xs uppercase tracking-wide text-slate-300">
+        <aside className="hidden w-72 flex-col border-r border-white/10 px-4 sm:px-6 py-6 sm:py-8 text-sm text-slate-300 md:flex">
+          <label className="flex items-center gap-2 rounded-lg border border-white/10 bg-white/5 py-2 pl-3 pr-0 text-xs uppercase tracking-wide text-slate-300">
             <span className="text-[10px] font-semibold text-[#FF4DA6]">
               Search
             </span>
@@ -203,8 +203,8 @@ const History = () => {
         </aside>
 
         <section className="flex-1 min-h-0">
-          <div className="md:hidden px-4 py-4">
-            <label className="flex items-center gap-2 rounded-lg border border-white/10 bg-white/5 py-[7px] pl-[11px] pr-0 text-xs uppercase tracking-wide text-slate-300">
+          <div className="md:hidden px-4 sm:px-6 py-4 sm:py-6">
+            <label className="flex items-center gap-2 rounded-lg border border-white/10 bg-white/5 py-2 pl-3 pr-0 text-xs uppercase tracking-wide text-slate-300">
               <span className="text-[10px] font-semibold text-[#FF4DA6]">
                 Search
               </span>
